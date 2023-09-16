@@ -1,2 +1,2 @@
-# DHR-FE 🦆
-[Ducks in the Han River] Front-End
+# HEC-FE 🦆
+[Han River Ecology Collect] Front-End
