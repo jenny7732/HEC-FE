@@ -1,3 +1,4 @@
+import 'package:ecology_collect/widgets/top_appbar.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -6,8 +7,8 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('로그인'),
+      appBar: const TopAppBar(
+        title: '로그인',
       ),
       body: Center(
         child: Column(
