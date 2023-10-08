@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:ecology_collect/widgets/dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:ecology_collect/widgets/menu_bottom.dart';
 import 'package:ecology_collect/widgets/menu_drawer.dart';
@@ -301,7 +302,10 @@ class _AiReportState extends State<AiReport> {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    // 버튼을 누를 때 실행될 동작을 추가하세요.
+                    showCustomDialog(
+                        context, "도감에 저장완료!", "닫기", "도감으로 이동", () {}, () {
+                      Navigator.of(context).pop();
+                    });
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color(0xffB8E3AA),
