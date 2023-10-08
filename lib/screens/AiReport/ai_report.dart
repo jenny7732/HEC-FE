@@ -29,6 +29,8 @@ class _AiReportState extends State<AiReport> {
     });
   }
 
+  TimeOfDay _selectedTime = TimeOfDay.now();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -179,21 +181,25 @@ class _AiReportState extends State<AiReport> {
                             fontWeight: FontWeight.w600,
                           ),
                         ),
-                        DropdownButton(
-                          value: _selectedHangang,
-                          items: _hangangs
-                              .map(
-                                (e) => DropdownMenuItem(
-                                  value: e,
-                                  child: Text(e),
-                                ),
-                              )
-                              .toList(),
-                          onChanged: (value) {
-                            setState(() {
-                              _selectedHangang = value!;
-                            });
+                        TextButton(
+                          onPressed: () async {
+                            final TimeOfDay? selectedTime =
+                                await showTimePicker(
+                              context: context,
+                              initialTime: _selectedTime,
+                            );
+
+                            if (selectedTime != null &&
+                                selectedTime != _selectedTime) {
+                              setState(() {
+                                _selectedTime = selectedTime;
+                              });
+                            }
                           },
+                          child: Text(
+                            _selectedTime.format(context),
+                            style: const TextStyle(fontSize: 16),
+                          ),
                         )
                       ],
                     ),
