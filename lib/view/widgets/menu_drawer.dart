@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ecology_collect/widgets/logout.dart';
-import 'package:ecology_collect/widgets/withdrawal.dart';
-import 'package:ecology_collect/widgets/profile_edit.dart';
+import 'package:ecology_collect/view/widgets/logout.dart';
+import 'package:ecology_collect/view/widgets/withdrawal.dart';
+import 'package:ecology_collect/view/widgets/profile_edit.dart';
 import 'package:get/instance_manager.dart';
 import 'package:get/route_manager.dart';
 

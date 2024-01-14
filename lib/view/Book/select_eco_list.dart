@@ -1,6 +1,6 @@
-import 'package:ecology_collect/screens/Book/eco_detail.dart';
+import 'package:ecology_collect/view/Book/eco_detail.dart';
 import 'package:flutter/material.dart';
-import 'package:ecology_collect/widgets/top_appbar.dart';
+import 'package:ecology_collect/view/widgets/top_appbar.dart';
 import 'package:get/instance_manager.dart';
 import 'package:get/route_manager.dart';
 import 'package:http/http.dart' as http;

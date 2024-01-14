@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ecology_collect/widgets/top_appbar.dart';
+import 'package:ecology_collect/view/widgets/top_appbar.dart';
 
 class ShowDetail extends StatelessWidget {
   const ShowDetail({super.key});

@@ -1,7 +1,7 @@
-import 'package:ecology_collect/screens/Show/eco_show.dart';
-import 'package:ecology_collect/screens/kakao_login.dart';
-import 'package:ecology_collect/screens/login_view_model.dart';
-import 'package:ecology_collect/widgets/top_appbar.dart';
+import 'package:ecology_collect/view/Show/eco_show.dart';
+import 'package:ecology_collect/view/kakao_login.dart';
+import 'package:ecology_collect/view/login_view_model.dart';
+import 'package:ecology_collect/view/widgets/top_appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/instance_manager.dart';
 import 'package:get/route_manager.dart';
