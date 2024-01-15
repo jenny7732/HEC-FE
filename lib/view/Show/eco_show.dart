@@ -37,7 +37,7 @@ class Show extends StatelessWidget {
         itemBuilder: (BuildContext context, int index) {
           return GestureDetector(
             onTap: () {
-              Get.to(const ShowDetail());
+              Get.to(() => ShowDetail());
             },
             child: Card(
               elevation: 2,

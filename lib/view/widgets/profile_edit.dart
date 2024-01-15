@@ -50,7 +50,7 @@ class _ProfileeditState extends State<Profileedit> {
             ),
             OutlinedButton(
               onPressed: () {
-                Get.to(const Nicknameedit());
+                Get.to(() => const Nicknameedit());
               },
               child: const Text(
                 "닉네임                                00  >",
@@ -148,7 +148,7 @@ class _ProfileeditState extends State<Profileedit> {
                 foregroundColor: const Color(0xff66A058),
               ),
               onPressed: () {
-                Get.to(const Profileedit());
+                Get.to(() => const Profileedit());
               },
               child: const Text(
                 '취소',

@@ -57,7 +57,7 @@ class Nicknameedit extends StatelessWidget {
                 height: 30,
                 child: FilledButton(
                     onPressed: () {
-                      Get.to(const Profileedit());
+                      Get.to(() => const Profileedit());
                     },
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all<Color>(

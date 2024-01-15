@@ -85,7 +85,8 @@ class Withdrawal extends StatelessWidget {
                                         ),
                                         TextButton(
                                           onPressed: () {
-                                            Get.to(const KakaoLoginScreen());
+                                            Get.to(
+                                                () => const KakaoLoginScreen());
                                           },
                                           child: const Text('확인'),
                                         ),
