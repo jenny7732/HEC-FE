@@ -1,7 +1,7 @@
 # HEC-FE 🦆
 [Han River Ecology Collect] Front-End
 
-(🥉FARM SYSTEM 2기 : 우수상 수상작)
+## (🥉FARM SYSTEM 2기 : 우수상 수상작)
 
 ### 🦆 한강 생태모아 Front-End
 
